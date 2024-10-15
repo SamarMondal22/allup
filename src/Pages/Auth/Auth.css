@@ -1,0 +1,36 @@
+.auth_sec{ height:100vh; padding:0; margin:0; overflow-x:hidden; z-index:1; }
+.auth_sec .back_effects{ position:absolute; top:0; left:0; z-index:-1; }
+
+.auth_sec .container{ height:100%; }
+.auth_sec .container .row{ height:100%; }
+.auth_sec .left_block{ width:calc(100% + 70px); height:100%; display:flex; flex-direction:column; justify-content:center; padding:121px 137px 121px 0; margin:0 0 0 -70px; }
+.auth_sec .left_block .top_title{ text-align:center; margin:0 0 42px; }
+.auth_sec .left_block .top_title h1{ font-size:30px; font-weight:600; color:var(--theme); margin-bottom:10px; }
+.auth_sec .left_block .top_title p{ font-size:16px; color:#666666; margin:0; }
+.auth_sec .left_block .form_block .input_fld{ position:relative; margin-bottom:30px; }
+.auth_sec .left_block .form_block .input_fld .input_icon{ width:24px; position:absolute; top:20px; right:10px; cursor:pointer; }
+.auth_sec .left_block .form_block .input_fld:last-child{ margin:0; }
+.auth_sec .left_block .form_block .input_fld .form-control{ height:55px; border:0; border-radius:0; box-shadow:none; border-bottom:2px solid rgba(0,0,0,0.1);  }
+.auth_sec .left_block .form_block .input_fld .form-control:focus{ border-bottom:2px solid var(--theme); background:var(--white); }
+.auth_sec .left_block .form_block .input_fld .error_msg{ font-size:13px; color:red; }
+
+.auth_sec .left_block .form_block .btm_fld .cmn-btn{ width:100%; border:0; }
+.auth_sec .left_block .btm_block{ text-align:center; margin-top:38px; }
+.auth_sec .left_block .btm_block p{ color:#666666; margin:0; }
+.auth_sec .left_block .btm_block p a{ text-decoration:underline !important; font-weight:600; display:inline-block; color:var(--theme); }
+.auth_sec .left_block .btm_block p a:hover{ color:var(--black); }
+
+
+
+
+
+
+.auth_sec .rt_block{ position:relative; width:50vw; height:100%; }
+.auth_sec .rt_block figure{ position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; margin:0; }
+.auth_sec .rt_block figure img{ position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; }
+
+
+
+
+
+

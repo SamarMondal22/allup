@@ -1,0 +1,16 @@
+.profile_sec{ border-bottom:1px solid rgba(0,0,0,0.1); padding:100px 0; margin:0; }
+.profile_sec .inr{ width:70%; margin:0 auto; }
+.profile_sec .inr h4{ font-size:16px; font-weight:600; color:var(--black); border-bottom:1px solid var(--theme); padding-bottom:26px; margin-bottom:30px; }
+.profile_sec .inr .profile_detls{ background:#F7F7F7; border-radius:10px; padding:44px 29px 77px; }
+.profile_sec .inr .profile_detls figure{ width:96px; height:96px; background:var(--black); overflow:hidden; border: 5px solid #FFFFFF; border-radius:50%; margin-bottom:35px; }
+.profile_sec .inr .profile_detls figure img{ width:100%; height:100%; object-fit:cover; }
+.profile_sec .inr .profile_detls .text_detls{ display:grid; grid-template-columns:repeat(2, 1fr); grid-row-gap:24px; grid-column-gap:37px; }
+.profile_sec .inr .profile_detls .text_detls .box{ border-bottom:1px solid rgba(0,0,0,0.1); padding:0 19px 11px; }
+.profile_sec .inr .profile_detls .text_detls .box p{ font-size:14px; line-height:1; color:#666666; margin-bottom:15px; }
+.profile_sec .inr .profile_detls .text_detls .box p:last-child{ font-size:16px; color:rgba(0,0,0,0.2); margin:0; }
+
+
+
+
+
+

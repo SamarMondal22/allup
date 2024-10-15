@@ -1,0 +1,17 @@
+.navber{ background:#FAFBFD; padding:15px 0; margin:0; }
+.navber .inr{ display:flex; align-items:center; justify-content:space-between; }
+.navber .inr .logo a{ width:113px; display:inline-block; }
+.navber .inr .navigation ul{ display:flex; align-items:center; gap:40px; margin:0; padding:0;  }
+.navber .inr .navigation ul li{ font-size:15px; font-weight:400; line-height:1; }
+.navber .inr .navigation ul li a{ position:relative; color:#666666; display:flex; padding:8px 0; transition:0.5s; }
+.navber .inr .navigation ul li a:after{ position:absolute; content:''; bottom:0; left:0; width:0; height:2px; border-radius:5px; background:var(--theme); transition:0.5s;  }
+.navber .inr .navigation ul li a:hover:after{ width:50%; }
+.navber .inr .navigation ul li a:hover{ color:var(--theme); }
+.navber .inr .rt_btn { display:flex; gap:14px; align-items:center; }
+.navber .inr .rt_btn a:nth-child(2){ font-weight:500; display:flex; align-items:center; gap:9px; background:transparent; border:1px solid var(--theme); color:var(--black); padding:6px 15px; }
+.navber .inr .rt_btn a:nth-child(2) i{ width:35px; height:35px; background:var(--black); border-radius:50%; overflow:hidden; }
+.navber .inr .rt_btn a:nth-child(2) i img{ width:100%; height:100%; object-fit:cover; }
+.navber .inr .rt_btn .logout{ font-size:14px; font-weight:400; color:red; display:block; margin-left:20px; }
+.navber .inr .rt_btn .logout i{ font-size:12px; margin-right:10px; }
+
+
